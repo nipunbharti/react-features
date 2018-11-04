@@ -1,3 +1,6 @@
-React app to check out the new features in >=16.6.0
+React app to check out the new features in React 16
 
-## Lazy-Suspense
+- [x] Lazy-suspense
+- [ ] Hooks
+- [ ] Error boundaries
+- [ ] Context API
