@@ -45,3 +45,9 @@ code {
   padding: 20px;
   font-size: 30px;
 }
+
+.counter {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
