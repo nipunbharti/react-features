@@ -1,5 +1,4 @@
 import React from "react";
-import ErrorBoundaries from "./ErrorBoundaries";
 
 export default class ErrorBoundariesCheck extends React.Component {
 
@@ -21,7 +20,7 @@ export default class ErrorBoundariesCheck extends React.Component {
     }
 
     render() {
-        if(this.state.counter == 5) {
+        if(this.state.counter === 5) {
             throw new Error('Crash');
         }
         return (

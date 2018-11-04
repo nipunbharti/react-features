@@ -17,6 +17,9 @@ export default class Home extends Component {
                         <li>
                             <Link to="/errorboundaries">Error Boundaries</Link>
                         </li>
+                        <li>
+                            <Link to="/statehook">State Hooks</Link>
+                        </li>
                     </ul>
                 </ErrorBoundaries>
             </>

@@ -6,7 +6,7 @@ export default class Album extends Component {
             <>
                 <div className="albumContainer">
                     <div className="image">
-                        <img src={this.props.albumArt} />
+                        <img src={this.props.albumArt} alt="album art" />
                     </div>
                     <div className="name">
                         {this.props.id + 1}. {this.props.name}
