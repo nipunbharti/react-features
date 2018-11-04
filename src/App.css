@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.list {
+  font-size: 20px;
+}
+
+.albumContainer {
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.loadingImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerAlbums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 30px;
+}
