@@ -1,6 +1,6 @@
 import React, { Component, lazy, Suspense } from 'react';
 // import Album from './Album';
-const Album = lazy(() => import('./Album.js'));
+const Album = lazy(() => import('./Album'));
 console.log(Album);
 
 export default class LazySuspense extends Component {
